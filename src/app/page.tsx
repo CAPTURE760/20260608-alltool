@@ -10,6 +10,8 @@ const tools = [
       { name: 'URL 批量编解码', href: '/url', desc: '批量 encodeURI / decodeURI' },
       { name: '字数统计', href: '/text-count', desc: '字符数、单词数、行数统计' },
       { name: 'Markdown 预览', href: '/markdown', desc: '实时 Markdown 渲染预览' },
+      { name: '大小写转换', href: '/case-converter', desc: '驼峰/下划线/短横线互转' },
+      { name: '文本排序去重', href: '/text-sort', desc: '行级排序、去重、反转' },
     ]
   },
   {
@@ -18,6 +20,8 @@ const tools = [
       { name: 'Hash 计算', href: '/hash', desc: 'MD5、SHA1、SHA256' },
       { name: '时间戳转换', href: '/timestamp', desc: '时间戳 ↔ 日期' },
       { name: 'UUID 生成', href: '/uuid', desc: 'UUID v4 批量生成' },
+      { name: '进制转换', href: '/radix', desc: '二/八/十/十六进制互转' },
+      { name: 'Unicode 转换', href: '/unicode', desc: 'Unicode ↔ 字符互转' },
     ]
   },
   {
@@ -25,6 +29,7 @@ const tools = [
     items: [
       { name: '正则测试', href: '/regexp', desc: '正则表达式在线测试' },
       { name: '代码格式化', href: '/code-format', desc: 'JS/CSS/SQL 美化压缩' },
+      { name: '代码对比', href: '/diff', desc: 'Diff 对比高亮差异' },
       { name: '二维码生成', href: '/qrcode', desc: '文本生成二维码' },
       { name: '颜色选择器', href: '/color-picker', desc: 'HEX/RGB/HSL 互转取色' },
       { name: 'Lorem Ipsum', href: '/lorem-ipsum', desc: '占位文本生成器' },
